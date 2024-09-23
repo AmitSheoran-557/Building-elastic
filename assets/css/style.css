@@ -7,6 +7,13 @@
     font-style: normal;
 }
 
+@font-face {
+    font-family: "Neue-Ultrabold";
+    src: url(../fonts/fonts/NeueMachina-Ultrabold.ttf);
+    font-weight: bolder;
+    font-style: normal;
+}
+
 /* ==================================================================== */
 @keyframes bounce2 {
 
@@ -34,42 +41,49 @@
 .bounce2 {
     animation: bounce2 2s ease infinite;
 }
+
 /* ============================== */
 .dropdown {
     position: relative;
     display: inline-block;
-  }
-  
-  .dropdown-content {
+}
+
+.dropdown-content {
     display: none;
     position: absolute;
     background-color: #f9f9f9;
     min-width: 160px;
-    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
     z-index: 1;
-  }
-  
-  .dropdown-content a {
+}
+
+.dropdown-content a {
     color: black;
     padding: 12px 16px;
     text-decoration: none;
     display: block;
-  }
-  
-  .dropdown-content a:hover {background-color: #f1f1f1;}
-  
-  .dropdown:hover .dropdown-content {
+}
+
+.dropdown-content a:hover {
+    background-color: #f1f1f1;
+}
+
+.dropdown:hover .dropdown-content {
     display: block;
-  }
-  
-  .dropdown:hover .dropbtn {
+}
+
+.dropdown:hover .dropbtn {
     background-color: #3e8e41;
-  }
+}
 
 /* ===================================================================== */
 
 .NeueMachina_font {
     font-family: "Neue Machina", sans-serif;
+}
+
+.Neue-Ultrabold {
+    font-family: "Neue-Ultrabold", sans-serif;
 }
 
 .container-1 {
@@ -158,6 +172,21 @@ li {
         overflow: hidden;
     }
 }
-@media (max-width:576px) {
-    
+
+@media (min-width:1440.99px) {
+    .bull-img {
+        transform: translate(-170px, 30px) !important;
+    }
+
+    .bear-img {
+        transform: translate(-100px, 70px) !important;
+    }
+
+    .cloud-img {
+        bottom: -120px;
+    }
+
+    .sec-1-blue-bg {
+        width: 73% !important;
+    }
 }
