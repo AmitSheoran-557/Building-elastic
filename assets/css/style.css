@@ -83,7 +83,7 @@
 
 /* ==================================== sec - 2 ====================================== */
 .sec-2-bg-img {
-    background-image: url("/assets/img/webp/sec-2-bg-img.png");
+    background-image: url("/assets/img/webp/sec-2-bg-img.webp");
     background-size: 100% 100%;
     background-position: center;
     background-repeat: no-repeat;
@@ -92,7 +92,7 @@
 
 /* =================================== sec - 3 ====================================== */
 .sec-3-bg-img {
-    background-image: url("/assets/img/webp/Roadmape.png");
+    background-image: url("/assets/img/webp/roadmap-bg.webp");
     background-size: cover;
     background-repeat: no-repeat;
 }
@@ -103,7 +103,7 @@ li {
 
 /* ===================================== sec -4 ============================================ */
 .sec-4-bg {
-    background-image: url("../img/webp/Section-4-bg.png");
+    background-image: url("../img/webp/section-4-bg.webp");
     background-repeat: no-repeat;
     background-size: cover;
 }
