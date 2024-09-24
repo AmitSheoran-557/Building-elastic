@@ -17,11 +17,20 @@
   <meta property="twitter:title" content="EEFI" />
   <meta property="twitter:description" content="" />
   <meta property="twitter:image" content="/meta-icon.png" />
-  <link rel="stylesheet" href="./assets/css/style.css">
-  <link rel="stylesheet" href="./assets/css/root.css">
+  <link rel="preload" href="./assets/css/root.css" as="style" onload="this.onload=null;this.rel='stylesheet'">
+  <noscript>
+    <link rel="stylesheet" href="./assets/css/root.css">
+  </noscript>
   <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
   <link rel="icon" href="./assets/img/svg/header-logo.svg">
+
   <link rel="preload" href="/assets/img/webp/sec-1-bg-img.webp" as="image" type="image/webp" />
+
+  <link rel="preload" href="./assets/css/style.css" as="style" onload="this.onload=null;this.rel='stylesheet'">
+  <noscript>
+    <link rel="stylesheet" href="./assets/css/style.css">
+  </noscript>
+
   <script src="https://cdn.tailwindcss.com"></script>
   <script>
     tailwind.config = {
@@ -670,7 +679,7 @@
       </div>
     </section>
   </main>
-  <script src="./assets/js/app.js" defer></script>
+  <script src="./assets/js/app.js" async></script>
 </body>
 
 </html>
