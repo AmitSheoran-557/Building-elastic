@@ -31,7 +31,6 @@
       theme: {
         extend: {
           colors: {
-            clifford: '#da373d',
           }
         }
       }
@@ -42,7 +41,7 @@
 
 <body class="">
   <main class="overflow-hidden max-w-[1920px] mx-auto relative">
-    <a class="fixed flex justify-center items-center z-50  lg:bottom-5 md:bottom-4 lg:right-5 md:right-4 bottom-3 right-3 lg:w-[42px] md:w-[36px] lg:h-[42px] md:h-[36px] w-[30px] h-[30px] bg-white rounded-[100px] page-up-btn shake bounce2 "
+    <a class="fixed flex justify-center items-center z-50  lg:bottom-5 md:bottom-4 lg:right-5 md:right-4 bottom-3 right-3 lg:w-[42px] md:w-[36px] lg:h-[42px] md:h-[36px] w-[30px] h-[30px] bg-white rounded-[100px] page-up-btn shake bounce2"
       href="#sec-1"><svg class="w-10" viewBox="0 0 64 64" xmlns="http://www.w3.org/2000/svg"
         xmlns:xlink="http://www.w3.org/1999/xlink" aria-hidden="true" role="img"
         class="iconify iconify--emojione-monotone" preserveAspectRatio="xMidYMid meet" fill="#ffffff">
@@ -68,30 +67,36 @@
           <div><a href="/"><img src="./assets/img/svg/header-logo.svg" alt=""></a></div>
           <div
             class="gap-[25px] flex flex-col menulist justify-center items-center duration-300 ease-linear text-white w-full -right-full min-h-screen fixed top-0 bg-blue-500 z-50 lg:relative lg:min-h-fit lg:w-fit lg:flex-row lg:right-0 lg:bg-transparent">
-            <a class="line-hover after:absolute  after:h-[2px] after:w-0 after:bg-white after:left-[50%] after:bottom-0 after:duration-200 after:ease-linear relative" href="/">About</a>
-            <a class="line-hover after:absolute  after:h-[2px] after:w-0 after:bg-white after:left-[50%] after:bottom-0 after:duration-200 after:ease-linear relative" href="/">IBO Event</a>
-            <a class="line-hover after:absolute  after:h-[2px] after:w-0 after:bg-white after:left-[50%] after:bottom-0 after:duration-200 after:ease-linear relative" href="/">EEFI Tokenomics</a>
-            <a class="line-hover after:absolute  after:h-[2px] after:w-0 after:bg-white after:left-[50%] after:bottom-0 after:duration-200 after:ease-linear relative" href="/">Team</a>
-            <a class="line-hover after:absolute  after:h-[2px] after:w-0 after:bg-white after:left-[50%] after:bottom-0 after:duration-200 after:ease-linear relative" href="/">Partners</a>
-            <a class="line-hover after:absolute  after:h-[2px] after:w-0 after:bg-white after:left-[50%] after:bottom-0 after:duration-200 after:ease-linear relative" href="/">Roadmap</a>
+            <a class="line-hover after:absolute  after:h-[2px] after:w-0 after:bg-white after:left-[50%] after:bottom-0 after:duration-200 after:ease-linear relative"
+              href="/">About</a>
+            <a class="line-hover after:absolute  after:h-[2px] after:w-0 after:bg-white after:left-[50%] after:bottom-0 after:duration-200 after:ease-linear relative"
+              href="/">IBO Event</a>
+            <a class="line-hover after:absolute  after:h-[2px] after:w-0 after:bg-white after:left-[50%] after:bottom-0 after:duration-200 after:ease-linear relative"
+              href="/">EEFI Tokenomics</a>
+            <a class="line-hover after:absolute  after:h-[2px] after:w-0 after:bg-white after:left-[50%] after:bottom-0 after:duration-200 after:ease-linear relative"
+              href="/">Team</a>
+            <a class="line-hover after:absolute  after:h-[2px] after:w-0 after:bg-white after:left-[50%] after:bottom-0 after:duration-200 after:ease-linear relative"
+              href="/">Partners</a>
+            <a class="line-hover after:absolute  after:h-[2px] after:w-0 after:bg-white after:left-[50%] after:bottom-0 after:duration-200 after:ease-linear relative"
+              href="/">Roadmap</a>
             <div class="dropdown relative inline-block">
-              <a class="flex items-center" href="/">More &nbsp; <svg width="16" height="15" viewBox="0 0 16 15"
-                  fill="none" xmlns="http://www.w3.org/2000/svg">
+              <p class="flex items-center cursor-pointer">More &nbsp;
+                <svg width="16" height="15" viewBox="0 0 16 15" fill="none" xmlns="http://www.w3.org/2000/svg">
                   <path
                     d="M11.8027 6.20992C11.6711 6.06997 11.5037 6 11.3004 6C11.0972 6 10.9297 6.06997 10.7982 6.20992L8 9.18702L5.20179 6.20992C5.07025 6.06997 4.90284 6 4.69955 6C4.49626 6 4.32885 6.06997 4.19731 6.20992C4.06577 6.34987 4 6.52799 4 6.74427C4 6.96056 4.06577 7.13867 4.19731 7.27862L7.49776 10.7901C7.56951 10.8664 7.64723 10.9206 7.73094 10.9527C7.81465 10.9847 7.90433 11.0005 8 11C8.09566 11 8.18535 10.984 8.26906 10.9519C8.35277 10.9198 8.43049 10.8659 8.50224 10.7901L11.8027 7.27862C11.9342 7.13867 12 6.96056 12 6.74427C12 6.52799 11.9342 6.34987 11.8027 6.20992Z"
                     fill="white" />
                 </svg>
-                <div class="dropdown-content hidden absolute bg-[#f9f9f9] min-w-40  z-10 shadow-2xl">
-                  <a class="text-black py-4 px-3 block hover:bg-[#f1f1f1]" href="#">Link 1</a>
-                  <a class="text-black py-4 px-3 block hover:bg-[#f1f1f1]" href="#">Link 2</a>
-                  <a class="text-black py-4 px-3 block hover:bg-[#f1f1f1]" href="#">Link 3</a>
-                </div>
+              <div class="dropdown-content hidden absolute bg-[#f9f9f9] min-w-40  z-10 shadow-2xl">
+                <a class="text-black py-4 px-3 block hover:bg-[#f1f1f1]" href="#">Link 1</a>
+                <a class="text-black py-4 px-3 block hover:bg-[#f1f1f1]" href="#">Link 2</a>
+                <a class="text-black py-4 px-3 block hover:bg-[#f1f1f1]" href="#">Link 3</a>
+              </div>
+              </p>
             </div>
-            </a>
 
           </div>
           <div class=" flex justify-center items-center"><button
-              class="enter-btn border-[1px] lg:border-[#1643C3] bg-[#1643C31A] border-[white] w-[136px] h-[43px] overflow-hidden lg:hover:bg-[#1643C3] lg:hover:text-white hover:bg-[white] hover:text-[#1643C3] duration-300 ease-linear rounded-[8px] justify-center flex items-center font-medium fs-md lg:text-[#1643C3] text-white font-raleway">Enter
+              class="enter-btn border-[1px] lg:border-[#1643C3] bg-transparent border-[white] w-[136px] h-[43px] overflow-hidden lg:hover:bg-[#1643C3] lg:hover:text-white hover:bg-[white] hover:text-[#1643C3] duration-300 ease-linear rounded-[8px] justify-center flex items-center font-medium fs-md lg:text-[#1643C3] text-white font-raleway">Enter
               App</button></div>
 
           <div class="flex flex-col lg:hidden menubar justify-between z-[200] relative w-8 h-6 mt-6">
@@ -107,7 +112,8 @@
       </div>
       <div class="container lg:pt-[150px] md:pt-[130px] sm:pt-[100px] pt-[70px]">
         <div class="flex flex-row flex-wrap ">
-          <div class="lg:w-6/12 w-full  text-left lg:justify-start sm:items-start items-center   justify-center flex flex-col">
+          <div
+            class="lg:w-6/12 w-full  text-left lg:justify-start sm:items-start items-center   justify-center flex flex-col">
             <div class="flex flex-col sm:items-start items-center text-center sm:text-left ">
               <h1
                 class="lg:max-w-[463px] NeueMachina_font md:max-w-full sm:max-w-full max-w-[390px] fs-4xl text-white font-medium leading-[112%] lg:mb-[25px] md:mb-6 mb-4">
@@ -170,11 +176,10 @@
             src="./assets/img/webp/boy-img.png" alt="boy-img">
         </div>
       </div>
-    </section>                                                                                                                                                                                 
-    <section class="sec-3-bg-img lg:pt-[120px] sm:pt-20 pt-16  pb-[142px] flex flex-col justify-center items-center min-h-screen relative">
-      <img
-      class="absolute translate-y-[-57%] top-0 w-full"
-      src="./assets/img/webp/clouds bottom.png" alt="clouds">
+    </section>
+    <section
+      class="sec-3-bg-img lg:pt-[120px] sm:pt-20 pt-16  pb-[142px] flex flex-col justify-center items-center min-h-screen relative">
+      <img class="absolute translate-y-[-57%] top-0 w-full" src="./assets/img/webp/clouds bottom.png" alt="clouds">
       <div class="container max-w-[1140px] mx-auto justify-center items-start">
         <div class="flex justify-center">
           <h2 class="text-white fs-2xl font-bold md:mb-[110px] mb-9 NeueMachina_font">Roadmap</h2>
@@ -208,7 +213,8 @@
                   </div>
                 </div>
                 <div>
-                  <img class="absolute lg:top-0 top-3 left-[90%]  lg:left-[-90%]  md:left-[-90%]" src="./assets/img/webp/dot-line.png" alt="dashed-line-img-1">
+                  <img class="absolute lg:top-0 top-3 left-[90%]  lg:left-[-90%]  md:left-[-90%]"
+                    src="./assets/img/webp/dot-line.png" alt="dashed-line-img-1">
                 </div>
               </div>
             </div>
@@ -221,271 +227,280 @@
                 </div>
                 <div class="absolute top-4  md:top-[-10px]">
                   <div
-                  class="line-outer-layer w-[22.89px] h-[22px] rounded-full px-[4.82px] py-[4.84px] bg-[#284597] flex justify-center items-center">
-                  <div class=" bg-[#4273FF] w-[13.25px] h-[13.32px] rounded-[100px]"></div>
-                </div>
+                    class="line-outer-layer w-[22.89px] h-[22px] rounded-full px-[4.82px] py-[4.84px] bg-[#284597] flex justify-center items-center">
+                    <div class=" bg-[#4273FF] w-[13.25px] h-[13.32px] rounded-[100px]"></div>
+                  </div>
                 </div>
                 <div>
-                <img class="absolute md:top-0  top-7  right-[-90%]" src="./assets/img/webp/dot-line.png" alt="dashed-line-img-2">
+                  <img class="absolute md:top-0  top-7  right-[-90%]" src="./assets/img/webp/dot-line.png"
+                    alt="dashed-line-img-2">
+                </div>
+              </div>
+              <div
+                class="relative lg:mt-[-17px] md:mt-[-17px]  lg:my-0 md:my-0 my-5 bg-[#1643C31A] max-w-[373px] text-gray-800 border-[1px] border-[#1643C3] px-[15px] py-[35px]  rounded-lg col-start-6 col-end-10 mr-auto">
+                <h2 class=" text-white fs-xl font-medium mb-[15px] whitespace-nowrap leading-[120%] font-jakarta">2023
+                  Beginning</h2>
+                <div class="text-white font-raleway fs-md font-normal">
+                  <ul class=" leading-[150%]">
+                    <li class="ml-7">Olympus Partnership Beginning </li>
+                    <li class="ml-12">$25k Grant 2023 </li>
+                    <li class="ml-12">$150k Total seeded Liquidity sought from Olympus DAO </li>
+                    <li class="ml-12">Third Party Partner Intros</li>
+                    <li class="ml-7"> Elastic Vault Strategy Updates + Olympus $OHM Integrations</li>
+                  </ul>
+                </div>
               </div>
             </div>
-            <div
-              class="relative lg:mt-[-17px] md:mt-[-17px]  lg:my-0 md:my-0 my-5 bg-[#1643C31A] max-w-[373px] text-gray-800 border-[1px] border-[#1643C3] px-[15px] py-[35px]  rounded-lg col-start-6 col-end-10 mr-auto">
-              <h2 class=" text-white fs-xl font-medium mb-[15px] whitespace-nowrap leading-[120%] font-jakarta">2023
-                Beginning</h2>
-              <div class="text-white font-raleway fs-md font-normal">
-                <ul class=" leading-[150%]">
-                  <li class="ml-7">Olympus Partnership Beginning </li>
-                  <li class="ml-12">$25k Grant 2023 </li>
-                  <li class="ml-12">$150k Total seeded Liquidity sought from Olympus DAO </li>
-                  <li class="ml-12">Third Party Partner Intros</li>
-                  <li class="ml-7"> Elastic Vault Strategy Updates + Olympus $OHM Integrations</li>
-                </ul>
-              </div>
-            </div>
-          </div>
 
-          <div class="flex md:contents flex-row-reverse">
-            <div
-              class="relative max-w-[373px] bg-[#1643C31A] lg:mt-[-40px] md:mt-[-40px] text-gray-800 border-[1px] border-[#1643C3]  px-[15px] py-[35px] rounded-lg col-start-1 col-end-5 mr-auto md:mr-0 md:ml-auto">
-              <h2 class=" text-white fs-xl font-medium mb-[15px] whitespace-nowrap leading-[120%] font-jakarta">Q3
-                2023</h2>
-              <div class="text-white font-raleway fs-md font-normal">
-                <ul class=" leading-[150%]">
-                  <li class="ml-6 mb-1 ">Partner launched KOLs Marketing Campaign | Rally larger community base </li>
-                  <li class="ml-6 mb-1 ">Balancer $EEFI Pools launch </li>
-                  <li class="ml-6 mb-1 ">Launch of Elastic Vault Strategy (flagship) + $EEFI</li>
-                  <li class="ml-6 ">Elastic IBO Fundraising Event [Rounds Begin] </li>
-                </ul>
-              </div>
-            </div>
-            <div class="relative lg:mt-[-40px] md:mt-[-40px] col-start-5 col-end-6 mr-7  md:mx-auto">
-              <div class="flex items-center justify-center w-6 h-full">
-                <div class="h-full w-[2px] bg-[#4273FF]">
+            <div class="flex md:contents flex-row-reverse">
+              <div
+                class="relative max-w-[373px] bg-[#1643C31A] lg:mt-[-40px] md:mt-[-40px] text-gray-800 border-[1px] border-[#1643C3]  px-[15px] py-[35px] rounded-lg col-start-1 col-end-5 mr-auto md:mr-0 md:ml-auto">
+                <h2 class=" text-white fs-xl font-medium mb-[15px] whitespace-nowrap leading-[120%] font-jakarta">Q3
+                  2023</h2>
+                <div class="text-white font-raleway fs-md font-normal">
+                  <ul class=" leading-[150%]">
+                    <li class="ml-6 mb-1 ">Partner launched KOLs Marketing Campaign | Rally larger community base </li>
+                    <li class="ml-6 mb-1 ">Balancer $EEFI Pools launch </li>
+                    <li class="ml-6 mb-1 ">Launch of Elastic Vault Strategy (flagship) + $EEFI</li>
+                    <li class="ml-6 ">Elastic IBO Fundraising Event [Rounds Begin] </li>
+                  </ul>
                 </div>
               </div>
-              <div class="absolute top-0  md:top-[-10px]">
-                <div
-                  class="line-outer-layer w-[22.89px] h-[22px] rounded-full px-[4.82px] py-[4.84px] bg-[#284597] flex justify-center items-center">
-                  <div class=" bg-[#4273FF] w-[13.25px] h-[13.32px] rounded-[100px]"></div>
+              <div class="relative lg:mt-[-40px] md:mt-[-40px] col-start-5 col-end-6 mr-7  md:mx-auto">
+                <div class="flex items-center justify-center w-6 h-full">
+                  <div class="h-full w-[2px] bg-[#4273FF]">
+                  </div>
                 </div>
-              </div>
-              <div>
-                <img class="absolute md:top-0 top-3 right-[-90%] md:right-[90%]" src="./assets/img/webp/dot-line.png" alt="dashed-line-img-3">
-              </div>
-            </div>
-          </div>
-
-          <div class="flex md:contents">
-            <div class="relative col-start-5  lg:mt-[-18px] md:mt-[-17px] col-end-6 mr-7 md:mx-auto">
-              <div class="flex items-center justify-center w-6 h-full">
-                <div class="h-full w-[2px] bg-[#4273FF]">
-                </div>
-              </div>
-               <div class="absolute top-4  md:top-[-2px]">
+                <div class="absolute top-0  md:top-[-10px]">
                   <div
                     class="line-outer-layer w-[22.89px] h-[22px] rounded-full px-[4.82px] py-[4.84px] bg-[#284597] flex justify-center items-center">
                     <div class=" bg-[#4273FF] w-[13.25px] h-[13.32px] rounded-[100px]"></div>
                   </div>
                 </div>
-                <img class="absolute md:top-2 top-7  right-[-90%]" src="./assets/img/webp/dot-line.png" alt="dashed-line-img-4">
-            </div>
-            <div
-              class="relative lg:my-0 md:my-0 my-5 lg:mt-[-18px] md:mt-[-17px]  max-w-[373px] text-gray-800 border-[1px] border-[#1643C3] bg-[#1643C31A] px-[15px] py-[35px]  rounded-lg col-start-6 col-end-10 mr-auto">
-              <h2 class=" text-white fs-xl font-medium mb-[15px] whitespace-nowrap leading-[120%] font-jakarta">Q4
-                2023</h2>
-              <div class="text-white font-raleway fs-md font-normal">
-                <ul class=" leading-[150%]">
-                  <li class="ml-7 mb-1">Front End upgrade </li>
-                  <li class="ml-7 mb-1">INO [Initial NFT Offering]: Social Elastic NFT campaign  </li>
-                  <li class="ml-7 mb-1">Initial Olympus econOHMy Vaults: </li>
-                  <li class="ml-12  mb-1">Elastic | FRAXBP LP Vault </li>
-                  <li class="ml-12  mb-1"> Olympus | Uniswap LP Vault </li>
-                  <li class="ml-7">Elastic Community Engagement: Onboard contributors to drive protocol development,
-                    partnerships,
-                    community development and begin governance activities</li>
-                </ul>
-              </div>
-            </div>
-          </div>
-
-          <div class="flex md:contents flex-row-reverse">
-            <div
-              class="relative max-w-[373px] lg:mt-[-18px] md:mt-[-17px] text-gray-800 border-[1px] border-[#1643C3] bg-[#1643C31A] px-[15px] py-[35px] rounded-lg col-start-1 col-end-5 mr-auto md:mr-0 md:ml-auto">
-              <h2 class=" text-white fs-xl font-medium mb-[15px] whitespace-nowrap leading-[120%] font-jakarta"> Q1
-                2024</h2>
-              <div class="text-white font-raleway fs-md font-normal">
-                <ul class=" leading-[150%]">
-                  <li class="ml-6 mb-1 ">Elastic Research and Development: Explore additional vault strategies and
-                    develop
-                    risk and due-diligence procedures associated with strategy development and implementation </li>
-                  <li class="ml-6  mb-1">Elastic Vault (Sub-Vaults): Begin exploring additional tokens to add to core
-                    Elastic
-                    Vault strategy</li>
-                  <li class="ml-6  mb-1">Arbitrum Layer 2 yield strategy considerations </li>
-                  <li class="ml-6  mb-1">Begin developing comprehensive tokenomics for $EFT (Elastic Protocol
-                    governance
-                    token) </li>
-                  <li class="ml-6">First $EEFI Bonds Program [Bond Protocol] (beta): treasury bolster fundraise </li>
-                </ul>
-              </div>
-            </div>
-            <div class="relative col-start-5 lg:mt-[-18px] md:mt-[-17px] col-end-6 mr-7  md:mx-auto">
-              <div class="flex items-center justify-center w-6 h-full">
-                <div class="h-full w-[2px] bg-[#4273FF]">
+                <div>
+                  <img class="absolute md:top-0 top-3 right-[-90%] md:right-[90%]" src="./assets/img/webp/dot-line.png"
+                    alt="dashed-line-img-3">
                 </div>
               </div>
-               <div class="absolute  top-[-2px]">
+            </div>
+
+            <div class="flex md:contents">
+              <div class="relative col-start-5  lg:mt-[-18px] md:mt-[-17px] col-end-6 mr-7 md:mx-auto">
+                <div class="flex items-center justify-center w-6 h-full">
+                  <div class="h-full w-[2px] bg-[#4273FF]">
+                  </div>
+                </div>
+                <div class="absolute top-4  md:top-[-2px]">
                   <div
                     class="line-outer-layer w-[22.89px] h-[22px] rounded-full px-[4.82px] py-[4.84px] bg-[#284597] flex justify-center items-center">
                     <div class=" bg-[#4273FF] w-[13.25px] h-[13.32px] rounded-[100px]"></div>
                   </div>
                 </div>
-                <img class="absolute top-2 left-[90%] md:left-[-90%]" src="./assets/img/webp/dot-line.png" alt="dashed-line-img-5">
-            </div>
-          </div>
-
-          <div class="flex md:contents">    
-            <div class="relative col-start-5 lg:mt-[-18px] md:mt-[-17px]  col-end-6 mr-7 md:mx-auto">
-              <div class="flex items-center justify-center w-6 h-full">
-                <div class="h-full w-[2px] bg-[#4273FF]">
+                <img class="absolute md:top-2 top-7  right-[-90%]" src="./assets/img/webp/dot-line.png"
+                  alt="dashed-line-img-4">
+              </div>
+              <div
+                class="relative lg:my-0 md:my-0 my-5 lg:mt-[-18px] md:mt-[-17px]  max-w-[373px] text-gray-800 border-[1px] border-[#1643C3] bg-[#1643C31A] px-[15px] py-[35px]  rounded-lg col-start-6 col-end-10 mr-auto">
+                <h2 class=" text-white fs-xl font-medium mb-[15px] whitespace-nowrap leading-[120%] font-jakarta">Q4
+                  2023</h2>
+                <div class="text-white font-raleway fs-md font-normal">
+                  <ul class=" leading-[150%]">
+                    <li class="ml-7 mb-1">Front End upgrade </li>
+                    <li class="ml-7 mb-1">INO [Initial NFT Offering]: Social Elastic NFT campaign  </li>
+                    <li class="ml-7 mb-1">Initial Olympus econOHMy Vaults: </li>
+                    <li class="ml-12  mb-1">Elastic | FRAXBP LP Vault </li>
+                    <li class="ml-12  mb-1"> Olympus | Uniswap LP Vault </li>
+                    <li class="ml-7">Elastic Community Engagement: Onboard contributors to drive protocol development,
+                      partnerships,
+                      community development and begin governance activities</li>
+                  </ul>
                 </div>
               </div>
-               <div class="absolute top-5 md:top-[-2px]">
+            </div>
+
+            <div class="flex md:contents flex-row-reverse">
+              <div
+                class="relative max-w-[373px] lg:mt-[-18px] md:mt-[-17px] text-gray-800 border-[1px] border-[#1643C3] bg-[#1643C31A] px-[15px] py-[35px] rounded-lg col-start-1 col-end-5 mr-auto md:mr-0 md:ml-auto">
+                <h2 class=" text-white fs-xl font-medium mb-[15px] whitespace-nowrap leading-[120%] font-jakarta"> Q1
+                  2024</h2>
+                <div class="text-white font-raleway fs-md font-normal">
+                  <ul class=" leading-[150%]">
+                    <li class="ml-6 mb-1 ">Elastic Research and Development: Explore additional vault strategies and
+                      develop
+                      risk and due-diligence procedures associated with strategy development and implementation </li>
+                    <li class="ml-6  mb-1">Elastic Vault (Sub-Vaults): Begin exploring additional tokens to add to core
+                      Elastic
+                      Vault strategy</li>
+                    <li class="ml-6  mb-1">Arbitrum Layer 2 yield strategy considerations </li>
+                    <li class="ml-6  mb-1">Begin developing comprehensive tokenomics for $EFT (Elastic Protocol
+                      governance
+                      token) </li>
+                    <li class="ml-6">First $EEFI Bonds Program [Bond Protocol] (beta): treasury bolster fundraise </li>
+                  </ul>
+                </div>
+              </div>
+              <div class="relative col-start-5 lg:mt-[-18px] md:mt-[-17px] col-end-6 mr-7  md:mx-auto">
+                <div class="flex items-center justify-center w-6 h-full">
+                  <div class="h-full w-[2px] bg-[#4273FF]">
+                  </div>
+                </div>
+                <div class="absolute  top-[-2px]">
                   <div
                     class="line-outer-layer w-[22.89px] h-[22px] rounded-full px-[4.82px] py-[4.84px] bg-[#284597] flex justify-center items-center">
                     <div class=" bg-[#4273FF] w-[13.25px] h-[13.32px] rounded-[100px]"></div>
                   </div>
                 </div>
-                <img class="absolute md:top-2 top-8 right-[-90%]" src="./assets/img/webp/dot-line.png" alt="dashed-line-img-6">
-            </div>
-            <div
-              class="relative lg:my-0 md:my-0 my-5 lg:mt-[-18px] md:mt-[-17px]  max-w-[373px] text-gray-800 border-[1px] border-[#1643C3] bg-[#1643C31A] px-[15px] py-[35px]  rounded-lg col-start-6 col-end-10 mr-auto">
-              <h2 class=" text-white fs-xl font-medium mb-[15px] leading-[120%] whitespace-nowrap font-jakarta">Q2
-                2024</h2>
-              <div class="text-white font-raleway fs-md font-normal">
-                <ul class=" leading-[150%]">
-                  <li class="ml-7 mb-1">Gearbox | OHM [Perp-Leverage] Vault </li>
-                  <li class="ml-7 mb-1">Bond Protocol (Bonding) Vault</li>
-                  <li class="ml-7 mb-1">Future Strategy (vote): Real Yield GMX | GPL Vault</li>
-                  <li class="ml-7 ">Future Strategy (vote): Elastic Options Vault (sub-vault)</li>
-                </ul>
+                <img class="absolute top-2 left-[90%] md:left-[-90%]" src="./assets/img/webp/dot-line.png"
+                  alt="dashed-line-img-5">
               </div>
             </div>
-          </div>
 
-          <div class="flex md:contents flex-row-reverse">
-            <div
-              class="relative max-w-[373px] lg:mt-[-18px] md:mt-[-17px] text-gray-800 border-[1px] border-[#1643C3] bg-[#1643C31A] px-[15px] py-[35px] rounded-lg col-start-1 col-end-5 mr-auto md:mr-0 md:ml-auto">
-              <h2 class=" text-white fs-xl font-medium mb-[15px] leading-[120%] whitespace-nowrap font-jakarta">Q3
-                2024</h2>
-              <div class="text-white font-raleway fs-md font-normal">
-                <ul class=" leading-[150%]">
-                  <li class="ml-6 mb-1">Establish DAO to govern Elastic Finance and fully decentralize protocol</li>
-                  <li class="ml-6 ">Elastic Yield Alliance (Strategic Yield Strategy Partners): begin governance vote
-                    for Multi-chain yield strategies</li>
-                </ul>
-              </div>
-            </div>
-            <div class="relative col-start-5 lg:mt-[-18px] md:mt-[-17px] col-end-6 mr-7  md:mx-auto">
-              <div class="flex items-center justify-center w-6 h-full">
-                <div class="h-full w-[2px] bg-[#4273FF]">
+            <div class="flex md:contents">
+              <div class="relative col-start-5 lg:mt-[-18px] md:mt-[-17px]  col-end-6 mr-7 md:mx-auto">
+                <div class="flex items-center justify-center w-6 h-full">
+                  <div class="h-full w-[2px] bg-[#4273FF]">
+                  </div>
                 </div>
-              </div>
-               <div class="absolute  md:top-[-2px] top-0">
+                <div class="absolute top-5 md:top-[-2px]">
                   <div
                     class="line-outer-layer w-[22.89px] h-[22px] rounded-full px-[4.82px] py-[4.84px] bg-[#284597] flex justify-center items-center">
                     <div class=" bg-[#4273FF] w-[13.25px] h-[13.32px] rounded-[100px]"></div>
                   </div>
                 </div>
-                <img class="absolute top-2 left-[90%] md:left-[-90%]" src="./assets/img/webp/dot-line.png" alt="dashed-line-img-7">
-            </div>
-          </div>
-
-          <div class="flex md:contents">
-            <div class="relative col-start-5 lg:mt-[-18px] md:mt-[-17px] col-end-6 mr-7 md:mx-auto">
-              <div class="flex items-center justify-center w-6 h-full">
-                <div class="h-full w-[2px] bg-[#4273FF]">
+                <img class="absolute md:top-2 top-8 right-[-90%]" src="./assets/img/webp/dot-line.png"
+                  alt="dashed-line-img-6">
+              </div>
+              <div
+                class="relative lg:my-0 md:my-0 my-5 lg:mt-[-18px] md:mt-[-17px]  max-w-[373px] text-gray-800 border-[1px] border-[#1643C3] bg-[#1643C31A] px-[15px] py-[35px]  rounded-lg col-start-6 col-end-10 mr-auto">
+                <h2 class=" text-white fs-xl font-medium mb-[15px] leading-[120%] whitespace-nowrap font-jakarta">Q2
+                  2024</h2>
+                <div class="text-white font-raleway fs-md font-normal">
+                  <ul class=" leading-[150%]">
+                    <li class="ml-7 mb-1">Gearbox | OHM [Perp-Leverage] Vault </li>
+                    <li class="ml-7 mb-1">Bond Protocol (Bonding) Vault</li>
+                    <li class="ml-7 mb-1">Future Strategy (vote): Real Yield GMX | GPL Vault</li>
+                    <li class="ml-7 ">Future Strategy (vote): Elastic Options Vault (sub-vault)</li>
+                  </ul>
                 </div>
               </div>
-               <div class="absolute top-6  md:top-[-2px]">
+            </div>
+
+            <div class="flex md:contents flex-row-reverse">
+              <div
+                class="relative max-w-[373px] lg:mt-[-18px] md:mt-[-17px] text-gray-800 border-[1px] border-[#1643C3] bg-[#1643C31A] px-[15px] py-[35px] rounded-lg col-start-1 col-end-5 mr-auto md:mr-0 md:ml-auto">
+                <h2 class=" text-white fs-xl font-medium mb-[15px] leading-[120%] whitespace-nowrap font-jakarta">Q3
+                  2024</h2>
+                <div class="text-white font-raleway fs-md font-normal">
+                  <ul class=" leading-[150%]">
+                    <li class="ml-6 mb-1">Establish DAO to govern Elastic Finance and fully decentralize protocol</li>
+                    <li class="ml-6 ">Elastic Yield Alliance (Strategic Yield Strategy Partners): begin governance vote
+                      for Multi-chain yield strategies</li>
+                  </ul>
+                </div>
+              </div>
+              <div class="relative col-start-5 lg:mt-[-18px] md:mt-[-17px] col-end-6 mr-7  md:mx-auto">
+                <div class="flex items-center justify-center w-6 h-full">
+                  <div class="h-full w-[2px] bg-[#4273FF]">
+                  </div>
+                </div>
+                <div class="absolute  md:top-[-2px] top-0">
                   <div
                     class="line-outer-layer w-[22.89px] h-[22px] rounded-full px-[4.82px] py-[4.84px] bg-[#284597] flex justify-center items-center">
                     <div class=" bg-[#4273FF] w-[13.25px] h-[13.32px] rounded-[100px]"></div>
                   </div>
                 </div>
-                <img class="absolute top-9 md:top-2 right-[-90%]" src="./assets/img/webp/dot-line.png" alt="dashed-line-img-8">
-            </div>
-            <div
-              class="relative lg:my-0 md:my-0 my-5 lg:mt-[-18px] md:mt-[-17px]  max-w-[373px] text-gray-800 border-[1px] border-[#1643C3] bg-[#1643C31A] px-[15px] py-[35px]  rounded-lg col-start-6 col-end-10 mr-auto">
-              <h2 class=" text-white fs-xl font-medium mb-[15px] leading-[120%] whitespace-nowrap font-jakarta">Q4
-                2024</h2>
-              <div class="text-white font-raleway fs-md font-normal">
-                <ul class=" leading-[150%]">
-                  <li class="ml-7 mb-1">Community voted Yield Strategy 1 (governance)</li>
-                  <li class="ml-7 ">$EEFI Borrowing and Lending Partnership</li>
-                </ul>
+                <img class="absolute top-2 left-[90%] md:left-[-90%]" src="./assets/img/webp/dot-line.png"
+                  alt="dashed-line-img-7">
               </div>
             </div>
-          </div>
 
-          <div class="flex md:contents flex-row-reverse">
-            <div
-              class="relative max-w-[373px] lg:mt-[-17px] md:mt-[-17px] text-gray-800 border-[1px] border-[#1643C3] bg-[#1643C31A] px-[15px] py-[35px] rounded-lg col-start-1 col-end-5 mr-auto md:mr-0 md:ml-auto">
-              <h2 class=" text-white fs-xl font-medium mb-[15px] leading-[120%] whitespace-nowrap font-jakarta">Q1
-                2025</h2>
-              <div class="text-white font-raleway fs-md font-normal">
-                <ul class=" leading-[150%]">
-                  <li class="ml-6 ">Community voted Yield Strategy 2 (governance)</li>
-                  <li class="ml-6 ">Olympus RBS-OHM Real Yield Vault (strategy) </li>
-                  <li class="ml-6">Launch EFT governance token Airdrop</li>
-                </ul>
-              </div>
-            </div>
-            <div class="relative lg:mt-[-17px] md:mt-[-17px]  col-start-5 col-end-6 mr-7  md:mx-auto">
-              <div class="flex items-center justify-center w-6 h-full">
-                <div class="h-full w-[2px] bg-[#4273FF]">
+            <div class="flex md:contents">
+              <div class="relative col-start-5 lg:mt-[-18px] md:mt-[-17px] col-end-6 mr-7 md:mx-auto">
+                <div class="flex items-center justify-center w-6 h-full">
+                  <div class="h-full w-[2px] bg-[#4273FF]">
+                  </div>
                 </div>
-              </div>
-               <div class="absolute top-0  md:top-[-2px]">
+                <div class="absolute top-6  md:top-[-2px]">
                   <div
                     class="line-outer-layer w-[22.89px] h-[22px] rounded-full px-[4.82px] py-[4.84px] bg-[#284597] flex justify-center items-center">
                     <div class=" bg-[#4273FF] w-[13.25px] h-[13.32px] rounded-[100px]"></div>
                   </div>
                 </div>
-                <img class="absolute md:top-2 top-3 left-[90%] md:left-[-90%]" src="./assets/img/webp/dot-line.png" alt="dashed-line-img-9">
-            </div>
-          </div>
-
-          <div class="flex md:contents">
-            <div class="relative col-start-5 lg:mt-[-17px] md:mt-[-17px]  col-end-6 mr-7 md:mx-auto">
-              <div class="flex items-center justify-center w-6 h-full">
-                <div class="h-full w-[2px] bg-[#4273FF]">
+                <img class="absolute top-9 md:top-2 right-[-90%]" src="./assets/img/webp/dot-line.png"
+                  alt="dashed-line-img-8">
+              </div>
+              <div
+                class="relative lg:my-0 md:my-0 my-5 lg:mt-[-18px] md:mt-[-17px] w-full max-w-[373px] text-gray-800 border-[1px] border-[#1643C3] bg-[#1643C31A] px-[15px] py-[35px]  rounded-lg col-start-6 col-end-10 mr-auto">
+                <h2 class=" text-white fs-xl font-medium mb-[15px] leading-[120%] whitespace-nowrap font-jakarta">Q4
+                  2024</h2>
+                <div class="text-white font-raleway fs-md font-normal">
+                  <ul class=" leading-[150%]">
+                    <li class="ml-7 mb-1">Community voted Yield Strategy 1 (governance)</li>
+                    <li class="ml-7 ">$EEFI Borrowing and Lending Partnership</li>
+                  </ul>
                 </div>
               </div>
-               <div class="absolute top-5 md:top-[-2px]">
+            </div>
+
+            <div class="flex md:contents flex-row-reverse">
+              <div
+                class="relative max-w-[373px] w-full lg:mt-[-17px] md:mt-[-17px] text-gray-800 border-[1px] border-[#1643C3] bg-[#1643C31A] px-[15px] py-[35px] rounded-lg col-start-1 col-end-5 mr-auto md:mr-0 md:ml-auto">
+                <h2 class=" text-white fs-xl font-medium mb-[15px] leading-[120%] whitespace-nowrap font-jakarta">Q1
+                  2025</h2>
+                <div class="text-white font-raleway fs-md font-normal">
+                  <ul class=" leading-[150%]">
+                    <li class="ml-6 ">Community voted Yield Strategy 2 (governance)</li>
+                    <li class="ml-6 ">Olympus RBS-OHM Real Yield Vault (strategy) </li>
+                    <li class="ml-6">Launch EFT governance token Airdrop</li>
+                  </ul>
+                </div>
+              </div>
+              <div class="relative lg:mt-[-17px] md:mt-[-17px]  col-start-5 col-end-6 mr-7  md:mx-auto">
+                <div class="flex items-center justify-center w-6 h-full">
+                  <div class="h-full w-[2px] bg-[#4273FF]">
+                  </div>
+                </div>
+                <div class="absolute top-0  md:top-[-2px]">
                   <div
                     class="line-outer-layer w-[22.89px] h-[22px] rounded-full px-[4.82px] py-[4.84px] bg-[#284597] flex justify-center items-center">
                     <div class=" bg-[#4273FF] w-[13.25px] h-[13.32px] rounded-[100px]"></div>
                   </div>
                 </div>
-                <img class="absolute md:top-2 top-8  right-[-90%]" src="./assets/img/webp/dot-line.png" alt="dashed-line-img-9">
-            </div>
-            <div
-              class="relative lg:my-0 md:my-0 my-5  lg:mt-[-17px] md:mt-[-17px] max-w-[373px] text-gray-800 border-[1px] border-[#1643C3] bg-[#1643C31A] px-[15px] py-[35px]  rounded-lg col-start-6 col-end-10 mr-auto">
-              <h2 class=" text-white fs-xl font-medium mb-[15px] leading-[120%] whitespace-nowrap font-jakarta">Q2
-                2025</h2>
-              <div class="text-white font-raleway fs-md font-normal">
-                <ul class=" leading-[150%]">
-                  <li class="ml-7">Hand over Elastic Finance DAO to Community: Complete decentralization of Elastic
-                    Finance DAO, its treasury, its yield strategies and community governance</li>
-                </ul>
+                <img class="absolute md:top-2 top-3 left-[90%] md:left-[-90%]" src="./assets/img/webp/dot-line.png"
+                  alt="dashed-line-img-9">
               </div>
             </div>
-          </div>
 
+            <div class="flex md:contents">
+              <div class="relative col-start-5 lg:mt-[-17px] md:mt-[-17px]  col-end-6 mr-7 md:mx-auto">
+                <div class="flex items-center justify-center w-6 h-full">
+                  <div class="h-full w-[2px] bg-[#4273FF]">
+                  </div>
+                </div>
+                <div class="absolute top-5 md:top-[-2px]">
+                  <div
+                    class="line-outer-layer w-[22.89px] h-[22px] rounded-full px-[4.82px] py-[4.84px] bg-[#284597] flex justify-center items-center">
+                    <div class=" bg-[#4273FF] w-[13.25px] h-[13.32px] rounded-[100px]"></div>
+                  </div>
+                </div>
+                <img class="absolute md:top-2 top-8  right-[-90%]" src="./assets/img/webp/dot-line.png"
+                  alt="dashed-line-img-9">
+              </div>
+              <div
+                class="relative lg:my-0 md:my-0 my-5  lg:mt-[-17px] md:mt-[-17px] max-w-[373px] text-gray-800 border-[1px] border-[#1643C3] bg-[#1643C31A] px-[15px] py-[35px]  rounded-lg col-start-6 col-end-10 mr-auto">
+                <h2 class=" text-white fs-xl font-medium mb-[15px] leading-[120%] whitespace-nowrap font-jakarta">Q2
+                  2025</h2>
+                <div class="text-white font-raleway fs-md font-normal">
+                  <ul class=" leading-[150%]">
+                    <li class="ml-7">Hand over Elastic Finance DAO to Community: Complete decentralization of Elastic
+                      Finance DAO, its treasury, its yield strategies and community governance</li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+
+          </div>
         </div>
-      </div>
     </section>
     <section
       class="flex flex-col lg:pt-[64px] pt-[51px] lg:pb-[69px] relative justify-center items-center sec-4-bg min-h-screen ">
@@ -565,7 +580,8 @@
                   <div class="lg:mb-[9px] mb-[6px]"> <img src="./assets/img/svg/position-box-img.svg"
                       alt="position-img">
                   </div>
-                  <p class="mb-1 font-extrabold lg:text-[16px] text-[14px] leading-[160%] text-center Neue-Ultrabold ">LP Positions </p>
+                  <p class="mb-1 font-extrabold lg:text-[16px] text-[14px] leading-[160%] text-center Neue-Ultrabold ">
+                    LP Positions </p>
                   <p class="font-raleway text-sm text-center leading-[120%] ">Yield Farming</p>
                 </div>
               </div>
@@ -578,7 +594,8 @@
                   <div class="items-center  flex flex-col">
                     <div class="lg:mb-[5px] mb-[6px]"><img src="./assets/img/svg/funding-box-img.svg" alt="funding-img">
                     </div>
-                    <p class=" mb-1 font-extrabold lg:text-[16px] text-[14px] leading-[110%] text-center Neue-Ultrabold">
+                    <p
+                      class=" mb-1 font-extrabold lg:text-[16px] text-[14px] leading-[110%] text-center Neue-Ultrabold">
                       Funding </p>
                     <p class="mb-1 font-extrabold lg:text-[16px] text-[14px] leading-[110%] text-center Neue-Ultrabold">
                       Raised
@@ -594,7 +611,8 @@
                   class="box-shadow lg:max-w-[160px] lg:max-h-[130px]  h-[120%]  max-h-[138px]  max-w-[103px] flex flex-col lg:px-[20px] lg:pt-[17px]  pt-[10px] px-[5px] rounded-[5.2px]  justify-start items-center bg-white">
                   <div class="lg:mb-[9px] mb-[6px]"><img src="./assets/img/svg/treasury-box-img.svg" alt="treasury-img">
                   </div>
-                  <p class="mb-1 font-extrabold lg:text-[16px] text-[14px] leading-[120%] text-center Neue-Ultrabold">OHM Treasury Strategy
+                  <p class="mb-1 font-extrabold lg:text-[16px] text-[14px] leading-[120%] text-center Neue-Ultrabold">
+                    OHM Treasury Strategy
                   </p>
                   <p class="font-raleway text-sm text-center leading-[120%] ">Deposit + Earn</p>
                 </div>
@@ -605,7 +623,8 @@
                   class="box-shadow lg:max-w-[160px] lg:max-h-[130px]  max-h-[138px]  h-[120%]  max-w-[103px] flex flex-col lg:px-[22px] lg:pt-[17px] lg:pb-[36px] pt-[10px] px-[9px] justify-start rounded-[5.2px]  items-center bg-white">
                   <div class="lg:mb-[9px] mb-[6px]"><img src="./assets/img/svg/market-box-img.svg" alt="market-img">
                   </div>
-                  <p class="mb-1 font-extrabold lg:text-[16px] text-[14px] leading-[120%] text-center Neue-Ultrabold">Markets</p>
+                  <p class="mb-1 font-extrabold lg:text-[16px] text-[14px] leading-[120%] text-center Neue-Ultrabold">
+                    Markets</p>
                   <p class="font-raleway text-sm text-center leading-[120%] ">Trade + Arb (Fees)</p>
                 </div>
               </div>
@@ -617,7 +636,8 @@
                   <div class="items-center  flex flex-col">
                     <div class="lg:mb-[9px] mb-[6px]"> <img src="./assets/img/svg/yield-box-img.svg" alt="yield-img">
                     </div>
-                    <p class="mb-1 font-extrabold lg:text-[16px] text-[14px] leading-[120%] text-center Neue-Ultrabold"> Yield From Growth
+                    <p class="mb-1 font-extrabold lg:text-[16px] text-[14px] leading-[120%] text-center Neue-Ultrabold">
+                      Yield From Growth
                       Assets</p>
                   </div>
                 </div>
@@ -627,7 +647,8 @@
                   class="box-shadow lg:max-w-[160px] lg:max-h-[130px]  h-[120%]  max-h-[138px]  max-w-[103px] flex flex-col lg:px-[18 px] lg:pt-[17px]  pt-[10px] px-[2px] rounded-[5.2px]  justify-start items-center bg-white">
                   <div class="lg:mb-[9px] mb-[6px]"><img src="./assets/img/svg/revenue-box-img.svg" alt="revenue-img">
                   </div>
-                  <p class="mb-1 font-extrabold lg:text-[16px] text-[14px] leading-[120%] text-center Neue-Ultrabold">Fees. Revenue. Yield
+                  <p class="mb-1 font-extrabold lg:text-[16px] text-[14px] leading-[120%] text-center Neue-Ultrabold">
+                    Fees. Revenue. Yield
                     to Treasury</p>
                 </div>
               </div>
@@ -638,7 +659,8 @@
                   class="box-shadow lg:max-w-[160px] lg:max-h-[130px] h-[138px] max-w-[103px] flex flex-col lg:px-[16px] lg:pt-[17px]  pt-[10px] px-[2px] rounded-[5.2px]  justify-start items-center bg-white">
                   <div class="lg:mb-[9px] mb-[6px]"><img src="./assets/img/svg/Furnace-box-img.svg" alt="Furnace-img">
                   </div>
-                  <p class="mb-1 font-extrabold lg:text-[16px] text-[14px] leading-[120%] text-center Neue-Ultrabold">EEFI Furnace </p>
+                  <p class="mb-1 font-extrabold lg:text-[16px] text-[14px] leading-[120%] text-center Neue-Ultrabold">
+                    EEFI Furnace </p>
                   <p class="font-raleway text-sm text-center leading-[120%] ">Buy + Burn EEFI</p>
                 </div>
               </div>
