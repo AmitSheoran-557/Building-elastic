@@ -86,7 +86,6 @@
     background-image: url("/assets/img/webp/sec-2-bg-img.webp");
     background-size: 100% 100%;
     background-position: center;
-    background-repeat: no-repeat;
     height: 833px;
 }
 
@@ -94,12 +93,24 @@
 .sec-3-bg-img {
     background-image: url("/assets/img/webp/roadmap-bg.webp");
     background-size: cover;
-    background-repeat: no-repeat;
 }
 
 li {
     list-style: disc;
 }
+::marker{
+    font-size:xx-small;
+    vertical-align: middle;
+}
+li::marker {
+    color: white;
+    font-size: 0.8rem;
+  }
+  
+  span{
+  position:relative;
+  bottom:11px;}
+
 
 /* ===================================== sec -4 ============================================ */
 .sec-4-bg {
@@ -128,13 +139,15 @@ li {
     .overflow-lg-hidden {
         overflow: hidden;
     }
+   
+
 }
 
 @media (min-width:1440.99px) {
     .bull-img {
         transform: translate(-170px, 30px) !important;
     }
-
+   
     .bear-img {
         transform: translate(-100px, 70px) !important;
     }

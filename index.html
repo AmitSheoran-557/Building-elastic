@@ -20,7 +20,7 @@
   <link rel="stylesheet preload" href="./assets/css/style.css">
   <link rel="stylesheet" href="./assets/css/root.css">
   <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet preload">
-  <link rel="icon" href="./assets/img/svg/header-logo.svg">
+  <link rel="icon" href="./assets/img/svg/navbar-logo.svg">
   <link rel="preload" href="/assets/img/webp/sec-1-bg-img.webp" as="image" type="image/webp" />
   <script src="https://cdn.tailwindcss.com"></script>
   <script>
@@ -39,17 +39,17 @@
   <main class="overflow-hidden max-w-[1920px] mx-auto relative">
     
     <!-- ============================= hero section ================================ -->
-    <section id="sec-1" class="flex  flex-col relative enter sm:min-h-[905px]">
+    <section id="sec-1" class="flex  flex-col relative enter xl:min-h-[905px]  min-h-[810px]">
       <img
-        class="absolute object-cover sec-1-blue-bg lg:h-auto lg:w-auto md:w-[100%] md:h-[770px] sm-w-[800px] sm:h-[700px] w-[800px] h-[670px] top-[0] rounded-[0] left-0 z-[-5]"
+        class="absolute max-lg:object-cover blue-box xl:h-[800px] sec-1-blue-bg lg:h-[84%] lg:w-[81%] md:w-[100%] md:h-[770px] sm-w-[800px] sm:h-[700px] w-[800px] h-[670px] top-[0] rounded-[0] left-0 z-[-5]"
         src="./assets/img/webp/sec-1-blue-bg.webp" alt="blue-box">
       <img class="absolute z-[-20] right-[20px] top-[0px] max-w-[1210px] w-full max-h-[967px]"
         src="./assets/img/webp/sec-1-bg-img.webp" alt="bg-img">
       <img
-        class="absolute dot-img lg:top-[190px] md:top-[340px] sm:top-[320px] top-[300px] lg:right-[29px] xl:top-[44px] md:right-[27px] sm:right-[24px] right-[20px]"
+        class="absolute dot-img max-lg:hidden xl:top-[44px] xl:right-[20px] lg:top-28 lg:right-5"
         src="./assets/img/webp/dot-img.webp" alt="dot-img">
       <div class="container z-10 w-full">
-        <nav class="flex pt-[10px] pb-[3px] justify-between">
+        <nav class="flex md:pt-[30px] pt-6 xl:px-0 px-3.5 pb-[3px] justify-between">
           <div><a href="/"><img src="./assets/img/svg/navbar-logo.svg" alt="EEFI_logo"></a></div>
           <div
             class="gap-[25px] flex flex-col menulist justify-center items-center duration-300 ease-linear text-white w-full -right-full min-h-screen fixed top-0 bg-blue-500 z-50 lg:relative lg:min-h-fit lg:w-fit lg:flex-row lg:right-0 lg:bg-transparent">
@@ -72,12 +72,12 @@
                     d="M11.8027 6.20992C11.6711 6.06997 11.5037 6 11.3004 6C11.0972 6 10.9297 6.06997 10.7982 6.20992L8 9.18702L5.20179 6.20992C5.07025 6.06997 4.90284 6 4.69955 6C4.49626 6 4.32885 6.06997 4.19731 6.20992C4.06577 6.34987 4 6.52799 4 6.74427C4 6.96056 4.06577 7.13867 4.19731 7.27862L7.49776 10.7901C7.56951 10.8664 7.64723 10.9206 7.73094 10.9527C7.81465 10.9847 7.90433 11.0005 8 11C8.09566 11 8.18535 10.984 8.26906 10.9519C8.35277 10.9198 8.43049 10.8659 8.50224 10.7901L11.8027 7.27862C11.9342 7.13867 12 6.96056 12 6.74427C12 6.52799 11.9342 6.34987 11.8027 6.20992Z"
                     fill="white" />
                 </svg>
-              <div class="dropdown-content rounded-md hidden absolute bg-[#f9f9f9] min-w-40  z-10 shadow-2xl">
-                <a class="text-black py-4 flex justify-center items-center text-md font-raleway px-3 hover:text-white hover:bg-blue-900"
+              <div class="dropdown-content rounded-md hidden absolute bg-[#f9f9f9] min-w-28 overflow-hidden  z-10 shadow-2xl">
+                <a class="text-black py-3 flex justify-center items-center text-md font-raleway px-1 hover:text-white hover:bg-blue-900"
                   href="https://www.youtube.com/" target="_blank">Youtube</a>
-                <a class="text-black py-4 flex justify-center items-center text-md font-raleway px-3 hover:text-white hover:bg-blue-900"
+                <a class="text-black py-3 flex justify-center items-center text-md font-raleway px-1 hover:text-white hover:bg-blue-900"
                   href="https://www.instagram.com/" target="_blank">Instagram</a>
-                <a class="text-black py-4 flex justify-center items-center text-md font-raleway px-3 hover:text-white hover:bg-blue-900"
+                <a class="text-black py-3 flex justify-center items-center text-md font-raleway px-1 hover:text-white hover:bg-blue-900"
                   href="https://x.com/?lang=en-in" target="_blank">Twitter</a>
               </div>
               </p>
@@ -88,7 +88,7 @@
               class="enter-btn border-[1px] lg:border-[#1643C3] bg-transparent border-[white] w-[136px] h-[43px] overflow-hidden lg:hover:bg-[#1643C3] lg:hover:text-white hover:bg-[white] hover:text-[#1643C3] duration-300 ease-linear rounded-[8px] justify-center flex items-center font-medium fs-md lg:text-[#1643C3] text-white font-raleway">Enter
               App</button></div>
 
-          <div class="flex flex-col lg:hidden menubar justify-between z-[200] relative w-8 h-6 mt-2">
+          <div class="flex flex-col lg:hidden menubar justify-between z-[200] relative w-8 h-6 mt-6">
             <span
               class="w-full h-1 flex rounded-md transition-all duration-500 bg-white menubarFirst origin-left"></span>
             <span
@@ -99,30 +99,30 @@
         </nav>
 
       </div>
-      <div class="container lg:pt-[150px] md:pt-[130px] sm:pt-[100px] pt-[70px]">
-        <div class="flex flex-row flex-wrap ">
+      <div class="container lg:pt-[150px]  md:pt-[100px] sm:pt-[100px] pt-[70px]">
+        <div class="flex flex-row flex-wrap xl:px-0 px-3">
           <div
-            class="lg:w-6/12 w-full  text-left lg:justify-start sm:items-start items-center   justify-center flex flex-col">
-            <div class="flex flex-col sm:items-start items-center text-center sm:text-left ">
+            class="lg:w-6/12 w-full  text-left  flex flex-col">
+            <div class="flex flex-col ">
               <h1
-                class="lg:max-w-[463px] NeueMachina_font md:max-w-full sm:max-w-full max-w-[390px] fs-4xl text-white font-medium leading-[112%] lg:mb-[25px] md:mb-6 mb-4">
+                class="lg:max-w-[463px] NeueMachina_font md:max-w-full sm:max-w-full max-w-[590px] fs-4xl text-white font-medium leading-[112%] lg:mb-[25px] md:mb-6 mb-3">
                 BUILDING ELASTIC
                 PROTOCOL</h1>
               <p
-                class="fs-md lg:max-w-[524px] z-[1] md:max-w-[400px] sm:max-w-[370px] max-w-[240px]  text-white leading-[150%] font-raleway lg:mb-[20px] md:mb-4 mb-3">
+                class="fs-md lg:max-w-[524px] z-[1] md:max-w-[400px] sm:max-w-[370px] max-w-[270px]  text-white leading-[150%] font-raleway lg:mb-[20px] md:mb-4 mb-3">
                 An ecosystem of unique yield
                 strategies
                 that help you earn yield, amplify, and stretch it across all market conditions</p>
               <a href="/">
                 <p
-                  class="fs-lg font-raleway max-w-[178px] text-white font-bold relative after:absolute  after:w-full after:bottom-[4px] after:h-[1px] after:left-0 after:bg-white ">
+                  class="fs-lg font-raleway max-w-[max-content] text-white font-bold relative after:absolute  after:w-full after:bottom-[4px] after:h-[1px] after:left-0 after:bg-white ">
                   Audited by Omniscia</p>
               </a>
             </div>
           </div>
           <div class="lg:w-6/12 w-full lg:items-start items-center flex lg:justify-start justify-center relative">
             <img
-              class="lg:absolute block  top-[-204px] lg:mt-[5px] mt-5 right-[-32px] lg:max-w-[668px] lg:max-h-[888px] md:max-h-[700px] md:max-w-[550px] sm:max-w-[400px] sm:max-h-[600px] max-w-[300px] max-h-[400px]"
+              class="lg:absolute block  max-xl:w-[600px] max-xl:left-[-65px]  top-[-204px] lg:mt-[5px] mt-5 right-[-32px] lg:max-w-[668px] lg:max-h-[888px] md:max-h-[700px] md:max-w-[550px] sm:max-w-[400px] sm:max-h-[600px] max-w-[300px] max-h-[400px]"
               src="./assets/img/webp/hero-sec-img.webp" alt="robot-img">
           </div>
         </div>
@@ -130,7 +130,7 @@
     </section>
     <!-- ============================= bull and bear section ======================= -->
     <section
-      class=" sec-2-bg-img  lg:max-h-[unset]  flex flex-col justify-cente md:max-h-[742px] sm:max-h-[650px] max-h-[450px] relative ">
+      class=" sec-2-bg-img bg-no-repeat  lg:max-h-[unset]  flex flex-col justify-cente md:max-h-[742px] sm:max-h-[650px] max-h-[450px] relative ">
       <div class="container z-20  h-[70px] ">
         <div class="flex items-baseline ">
           <div
@@ -155,7 +155,7 @@
         </div>
         <div class="flex justify-center xl:mt-[342px] lg:mt-[306px] md:mt-[304px] sm:mt-[200px] mt-[90px] z-90">
           <p
-            class="text-white text-[14px] font-raleway lg:max-w-[570px] md:max-w-[700px] sm:max-w-[600px] max-w-[450px] px-4 text-center">
+            class="text-white text-[14px] sec-2-subheading font-raleway lg:max-w-[570px] md:max-w-[700px] sm:max-w-[600px] max-w-[450px] px-4 text-center">
             We take a different balanced approach to
             finding
             and creating
@@ -171,7 +171,7 @@
     </section>
     <!-- ============================= roadmap ===================================== -->
     <section
-      class="sec-3-bg-img bg-blue-800 lg:pt-[120px] sm:pt-20 pt-16  pb-[142px] flex flex-col justify-center items-center min-h-screen relative">
+      class="sec-3-bg-img bg-no-repeat bg-blue-800 lg:pt-[120px] sm:pt-20 pt-16  lg:pb-[142px] sm:pb-24 pb-20 flex flex-col justify-center items-center min-h-screen relative">
       <img class="absolute translate-y-[-57%] top-0 w-full" src="./assets/img/webp/cloud-img.webp" alt="clouds">
       <div class="container max-w-[1140px] mx-auto justify-center items-start">
         <div class="flex justify-center">
@@ -186,7 +186,7 @@
                 </h2>
                 <div class="text-white font-raleway fs-md font-normal">
                   <ul class=" leading-[150%]">
-                    <li class="ml-7">Ideation of Elastic Protocol </li>
+                    <li class="ml-7"> Ideation of Elastic Protocol </li>
                     <li class="ml-12">Elastic Protocol GitBook </li>
                     <li class="ml-12">Full Code development of Elastic Vault Strategy </li>
                     <li class="ml-12">Audit </li>
@@ -201,7 +201,7 @@
                 </div>
                 <div class="absolute  lg:top-[-10px] top-0">
                   <div
-                    class="line-outer-layer w-[22.89px] h-[22px] rounded-full px-[4.82px] py-[4.84px] bg-[#284597] flex justify-center items-center">
+                    class="line-outer-layer w-[22.89px] h-[22px] rounded-full pb-[0.5px] bg-[#284597] flex justify-center items-center">
                     <div class=" bg-[#4273FF] w-[13.25px] h-[13.32px] rounded-[100px]"></div>
                   </div>
                 </div>
@@ -220,7 +220,7 @@
                 </div>
                 <div class="absolute top-4  md:top-[-10px]">
                   <div
-                    class="line-outer-layer w-[22.89px] h-[22px] rounded-full px-[4.82px] py-[4.84px] bg-[#284597] flex justify-center items-center">
+                    class="line-outer-layer w-[22.89px] h-[22px] rounded-full pb-[0.5px] bg-[#284597] flex justify-center items-center">
                     <div class=" bg-[#4273FF] w-[13.25px] h-[13.32px] rounded-[100px]"></div>
                   </div>
                 </div>
@@ -266,7 +266,7 @@
                 </div>
                 <div class="absolute top-0  md:top-[-10px]">
                   <div
-                    class="line-outer-layer w-[22.89px] h-[22px] rounded-full px-[4.82px] py-[4.84px] bg-[#284597] flex justify-center items-center">
+                    class="line-outer-layer w-[22.89px] h-[22px] rounded-full pb-[0.5px] bg-[#284597] flex justify-center items-center">
                     <div class=" bg-[#4273FF] w-[13.25px] h-[13.32px] rounded-[100px]"></div>
                   </div>
                 </div>
@@ -285,7 +285,7 @@
                 </div>
                 <div class="absolute top-4  md:top-[-2px]">
                   <div
-                    class="line-outer-layer w-[22.89px] h-[22px] rounded-full px-[4.82px] py-[4.84px] bg-[#284597] flex justify-center items-center">
+                    class="line-outer-layer w-[22.89px] h-[22px] rounded-full pb-[0.5px] bg-[#284597] flex justify-center items-center">
                     <div class=" bg-[#4273FF] w-[13.25px] h-[13.32px] rounded-[100px]"></div>
                   </div>
                 </div>
@@ -339,7 +339,7 @@
                 </div>
                 <div class="absolute  top-[-2px]">
                   <div
-                    class="line-outer-layer w-[22.89px] h-[22px] rounded-full px-[4.82px] py-[4.84px] bg-[#284597] flex justify-center items-center">
+                    class="line-outer-layer w-[22.89px] h-[22px] rounded-full pb-[0.5px] bg-[#284597] flex justify-center items-center">
                     <div class=" bg-[#4273FF] w-[13.25px] h-[13.32px] rounded-[100px]"></div>
                   </div>
                 </div>
@@ -356,7 +356,7 @@
                 </div>
                 <div class="absolute top-5 md:top-[-2px]">
                   <div
-                    class="line-outer-layer w-[22.89px] h-[22px] rounded-full px-[4.82px] py-[4.84px] bg-[#284597] flex justify-center items-center">
+                    class="line-outer-layer w-[22.89px] h-[22px] rounded-full pb-[0.5px] bg-[#284597] flex justify-center items-center">
                     <div class=" bg-[#4273FF] w-[13.25px] h-[13.32px] rounded-[100px]"></div>
                   </div>
                 </div>
@@ -398,7 +398,7 @@
                 </div>
                 <div class="absolute  md:top-[-2px] top-0">
                   <div
-                    class="line-outer-layer w-[22.89px] h-[22px] rounded-full px-[4.82px] py-[4.84px] bg-[#284597] flex justify-center items-center">
+                    class="line-outer-layer w-[22.89px] h-[22px] rounded-full pb-[0.5px] bg-[#284597] flex justify-center items-center">
                     <div class=" bg-[#4273FF] w-[13.25px] h-[13.32px] rounded-[100px]"></div>
                   </div>
                 </div>
@@ -415,7 +415,7 @@
                 </div>
                 <div class="absolute top-6  md:top-[-2px]">
                   <div
-                    class="line-outer-layer w-[22.89px] h-[22px] rounded-full px-[4.82px] py-[4.84px] bg-[#284597] flex justify-center items-center">
+                    class="line-outer-layer w-[22.89px] h-[22px] rounded-full pb-[0.5px] bg-[#284597] flex justify-center items-center">
                     <div class=" bg-[#4273FF] w-[13.25px] h-[13.32px] rounded-[100px]"></div>
                   </div>
                 </div>
@@ -455,7 +455,7 @@
                 </div>
                 <div class="absolute top-0  md:top-[-2px]">
                   <div
-                    class="line-outer-layer w-[22.89px] h-[22px] rounded-full px-[4.82px] py-[4.84px] bg-[#284597] flex justify-center items-center">
+                    class="line-outer-layer w-[22.89px] h-[22px] rounded-full pb-[0.5px] bg-[#284597] flex justify-center items-center">
                     <div class=" bg-[#4273FF] w-[13.25px] h-[13.32px] rounded-[100px]"></div>
                   </div>
                 </div>
@@ -472,7 +472,7 @@
                 </div>
                 <div class="absolute top-5 md:top-[-2px]">
                   <div
-                    class="line-outer-layer w-[22.89px] h-[22px] rounded-full px-[4.82px] py-[4.84px] bg-[#284597] flex justify-center items-center">
+                    class="line-outer-layer w-[22.89px] h-[22px] rounded-full pb-[0.5px] bg-[#284597] flex justify-center items-center">
                     <div class=" bg-[#4273FF] w-[13.25px] h-[13.32px] rounded-[100px]"></div>
                   </div>
                 </div>
@@ -498,7 +498,7 @@
     <!-- ============================= game theory ================================= -->
     <section
       class="flex flex-col lg:pt-[64px] pt-[51px] lg:pb-[69px] pb-5 relative justify-center items-center sec-4-bg min-h-screen ">
-      <div class="container mx-auto max-w-[1140px]">
+      <div class="px-3 2xl:max-w-[1440px]  mx-auto max-w-[1140px]">
         <div class="flex flex-row lg:justify-between justify-center items-center  flex-wrap">
           <div class="lg:w-1/2 w-full flex flex-col justify-center items-center">
             <div class="flex flex-col justify-center  items-center lg:items-start">
@@ -532,7 +532,7 @@
             </div>
           </div>
           <div
-            class="lg:w-1/2 max-w-[530px] w-ful flex flex-col justify-center items-center lg:mt-0 mt-[48px] relative">
+            class="lg:w-1/2 md:px-0 px-2 max-w-[530px] w-ful flex flex-col justify-center items-center lg:mt-0 mt-[48px] relative">
 
             <div class="justify-center z-20 flex lg:mb-[76px] mb-[62px] ">
               <div
