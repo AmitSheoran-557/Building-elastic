@@ -120,6 +120,9 @@ li {
 .color-blue {
     color: var(--color-blue);
 }
+.flex-nowrap{
+    flex-wrap: nowrap !important;
+}
 
 @media (max-width:1024px) {
     .overflow-lg-hidden {
@@ -143,4 +146,5 @@ li {
     .sec-1-blue-bg {
         width: 73% !important;
     }
+    
 }
